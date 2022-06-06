@@ -15,7 +15,7 @@ namespace ISoulBound:
     func ownerOf(token_id : Uint256) -> (owner : felt):
     end
 
-    func SB_URI_(token_id : Uint256) -> (uri : felt):
+    func tokenURI(token_id : Uint256) -> (uri : felt):
     end
 
     func mint(to : felt, token_id : Uint256):
